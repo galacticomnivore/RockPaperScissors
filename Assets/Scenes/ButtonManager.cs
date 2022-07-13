@@ -15,4 +15,10 @@ public class ButtonManager : MonoBehaviour
     {
         
     }
+
+    public void ButtonPressed()
+    {
+        Debug.Log("This button is pressed");
+    }
+
 }
